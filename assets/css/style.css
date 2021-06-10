@@ -34,9 +34,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    
 }
-
 
 .nav-links {
     list-style-type: none;
@@ -47,21 +45,28 @@ a {
     margin-left: 25px;
 }
 
-section {
-    margin-top: 100px;
-    display: inline-block;
-    margin-left: 50px;
-    width: 75%;
-    margin-right: 50px;
+main {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-container > section {
+    height: 200px;
+    margin-top: 20px;
     border: 2px solid crimson;
-    flex: 1 0 100%;
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: row;
     border-radius: 5px;
     color: white;
     background-image: linear-gradient(pink, crimson);
 }
+
 
 h2 {
     padding-bottom: 10px;
@@ -73,11 +78,21 @@ body {
     background-color: aliceblue;
 }
 
-/* Could not figure out how to make my picture smaller and look like an aside box next to the section boxes */
-div {
+aside {
+    float: right;
+    margin-left: 30px;
+   
+}
+
+.img-container {
     display: block;
-    margin-right: 40px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 600px;
+    /* height: auto;
+    background-color: pink; */
 } 
+
 
 img {
     max-width: 350px;
@@ -85,3 +100,28 @@ img {
     float: right;
     border: 3px solid crimson;
 }
+
+footer {
+    padding-top: 20px;
+    background-color: pink;
+    padding-bottom: 20px;
+    border-top: 10px solid crimson;
+}
+
+
+/* Cannot get the media tags to work correctly */
+
+/* @media screen and (min-width: 768px) {
+    header {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    main {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+} */

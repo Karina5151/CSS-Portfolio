@@ -6,5 +6,6 @@
 
 ## Mock-Up
     The following image shows the web page's appearance AFTER I completed my editing of both the html and css files:
-    ![finished-portfolio-screenshot](../assets/images/finished-portfolio-screenshot.png)
+![finished-portfolio-screenshot](./assets/images/finished-portfolio-screenshot.png)
+   
     
