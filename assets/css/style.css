@@ -23,8 +23,14 @@ a {
     text-shadow: 2px 2px crimson;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;  
+    font-size: 20px;  
 }
+
+#mywork {
+    height: fit-content;
+
+}
+
 
 .navbar {
     padding: 20px;
